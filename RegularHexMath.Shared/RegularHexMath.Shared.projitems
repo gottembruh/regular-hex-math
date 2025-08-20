@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>dd441fd0-7223-4a10-9db4-5cb1fa0263c6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RegularHexMath.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Coordinates\Axial.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Coordinates\Cube.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Coordinates\Offset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HCellType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HexagonalException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HexGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HexagonalGridMesh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HexMath.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularHexMath.Net.Tests", "RegularHexMath.Tests\RegularHexMath.Net.Tests.csproj", "{2CC154C2-AC0B-4365-A827-30A6AA013C5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A} = {102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegularHexMath.Unity", "RegularHexMath.Unity", "{2E942E62-4F2C-446A-BD0C-1585593E029A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularHexMath.Unity", "RegularHexMath.Unity\RegularHexMath.Unity.csproj", "{9EB53C69-CA7D-420B-8011-97AE33CE4724}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RegularHexMath.Shared", "RegularHexMath.Shared\RegularHexMath.Shared.shproj", "{DD441FD0-7223-4A10-9DB4-5CB1FA0263C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegularhexMath.Net", "RegularhexMath.Net", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularHexMath.Net", "RegularHexMath.Net\RegularHexMath.Net.csproj", "{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularHexMath.Unity.Tests", "RegularHexMath.Unity.Tests\RegularHexMath.Unity.Tests.csproj", "{59F024B5-326D-47DA-A591-9188BA0BF2F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC154C2-AC0B-4365-A827-30A6AA013C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC154C2-AC0B-4365-A827-30A6AA013C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC154C2-AC0B-4365-A827-30A6AA013C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC154C2-AC0B-4365-A827-30A6AA013C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB53C69-CA7D-420B-8011-97AE33CE4724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB53C69-CA7D-420B-8011-97AE33CE4724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB53C69-CA7D-420B-8011-97AE33CE4724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB53C69-CA7D-420B-8011-97AE33CE4724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F024B5-326D-47DA-A591-9188BA0BF2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F024B5-326D-47DA-A591-9188BA0BF2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F024B5-326D-47DA-A591-9188BA0BF2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F024B5-326D-47DA-A591-9188BA0BF2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC154C2-AC0B-4365-A827-30A6AA013C5B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9EB53C69-CA7D-420B-8011-97AE33CE4724} = {2E942E62-4F2C-446A-BD0C-1585593E029A}
+		{102F52C0-1D7E-43FB-8DC0-297BDAEAC61A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{59F024B5-326D-47DA-A591-9188BA0BF2F0} = {2E942E62-4F2C-446A-BD0C-1585593E029A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25C059C9-BA29-4471-90CC-F16F2FF88FDF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RegularHexMath.Shared\RegularHexMath.Shared.projitems*{2cc154c2-ac0b-4365-a827-30a6aa013c5b}*SharedItemsImports = 5
+		RegularHexMath.Shared\RegularHexMath.Shared.projitems*{9eb53c69-ca7d-420b-8011-97ae33ce4724}*SharedItemsImports = 5
+		RegularHexMath.Shared\RegularHexMath.Shared.projitems*{dd441fd0-7223-4a10-9db4-5cb1fa0263c6}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
